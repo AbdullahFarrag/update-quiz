@@ -149,12 +149,12 @@ function checkAnswer(selectedOption) {
 
 function showResults() {
   // Display the custom message
-  messageElement.textContent = `Your score is ${score} of ${totalQuestions}`;
+  messageElement.textContent = `Your score is (${score} of ${totalQuestions})`;
   messageElement.style.display = "block";
 }
 
 function updateResults() {
-  resultsElement.textContent = `Results: ${score} // ${totalQuestions}`;
+  resultsElement.textContent = `Score: ${score} // ${totalQuestions}`;
 }
 
 // Start the quiz
